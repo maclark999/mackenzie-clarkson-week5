@@ -1,5 +1,7 @@
 --README
  An attempt at building app
+
+ *ruby 2.2.0
  *rails 4.2.0
 
 

@@ -1,0 +1,31 @@
+<%= form_for(@location, html: {class: "form-horizontal"}) do |f| %>
+
+  <div class = "form-group">
+    <%= f.label :name, class: "col-md-2 control-label" %>
+    <div class = "col-md-6">
+      <%= f.text_field :name, class: "form-control" %>
+    </div>
+  </div>
+
+  <div class = "form-group">
+    <%= f.label :address, class: "col-md-2 control-label" %>
+    <div class = "col-md-6">
+      <%= f.text_field :address, class: "form-control" %>
+    </div>
+  </div>
+
+  <div class = "form-group">
+    <%= f.label :zipcode, class: "col-md-2 control-label" %>
+    <div class = "col-md-6">
+      <%= f.number_field :zipcode, class: "form-control" %>
+    </div>
+  </div>
+
+  <div class = "form-group">
+    <div class = "col-md-offset-6">
+    <%= f.submit, class: "btn btn-primary" %>
+    <%= link_to 'Cancel' locations_path class: "btn btn-default" %>
+    </div>
+  </div>
+
+<% end %>
