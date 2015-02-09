@@ -1,0 +1,6 @@
+--README
+ An attempt at building app
+ *rails 4.2.0
+
+
+*bootstrap 3.3.1
